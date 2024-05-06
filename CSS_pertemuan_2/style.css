@@ -1,0 +1,50 @@
+.header {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    background-color: #E1ACAC;
+}
+em {
+    color:brown;
+    font-size: 24px;
+}
+.main {
+    background-color:bisque;
+    text-align: justify;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+/* inline blok */
+.words {
+    display: inline-block;
+    font: 600 20px 'Arial', sans-serif;
+    text-decoration: underline;
+    color:brown;
+    background-color: beige;
+    height: 150px; /* untuk mengatur tinggi */
+    width: 400px; /* untuk mengatur lebar ( bisa pakai % bisa pakai px ) */
+}
+
+.article {
+    display: none; /* untuk menghapus */
+    width: 50%;
+    height: 300px;
+    background-color: beige;
+    
+}
+
+.article2 {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    /* overflow = visible (default) */
+    overflow: auto; /* overflow auto = menyesuaikan */
+}
+
+.footer {
+    background-color:brown;
+    color: wheat;
+    text-align: center;
+    text-decoration: underline;
+}

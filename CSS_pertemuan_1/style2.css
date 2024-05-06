@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400;1,700;1,800&display=swap');
+
+/* jenis-jenis selector css */
+/* universal selector */
+
+*{
+    color:black;
+    background-color: rgb(235, 216, 208);
+}
+
+h1 {
+    /* rgb (red, green, blue) */
+    /* rgba (red, green, blue, alpha) */
+    color: rgba(55, 85, 201, 0.5);
+    background-color: bisque;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* selector ID */
+#heading1 {
+    color: #56667A; /* warna hexadesimal #RRGGBB */
+    background-color: bisque;
+    font-family: Arial, "Times New Roman", serif;
+}
+/* selector ID */
+#heading2 {
+    color: goldenrod;
+    background-color: bisque;
+}
+/* selector class */
+.heading {
+    color:maroon;
+    font-size: 25px;
+}
+.paragraf {
+    font-family: "poppins", sans-serif;
+    font-size: 35px;
+    font-style: oblique;
+    font-weight: bold; /* font weight : 100-900 // bolder, bold, lighter */
+    text-align: center;
+    text-decoration: underline;
+}
+.paragraf2 {
+    font: oblique 500 20px "verdana", sans-serif;
+    text-indent: 64px;
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    /* uppercase = huruf besar, lowercase = huruf kecil */
+    /* capitalaize =  buat setiap kata awalanya huruf besar*/
+    line-height: 1;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+.comment {
+    color: black;
+    font: 600 30px "poppins", sans-serif;
+    text-align: center;
+    letter-spacing: 5px;
+    background-color: unset;
+}

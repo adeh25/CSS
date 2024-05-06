@@ -1,0 +1,21 @@
+body {
+    background-image: url("images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /*background-position: top center;*/
+    background-attachment: fixed;
+
+    /* shorthand dari semua properti background */
+    /*background: url("images.jpg") no-repeat cover top left / cover fixed;*/
+
+}
+.scrol {
+    width: auto;
+    height: 1200px;
+}
+.title {
+    font: 600 40px "Arial", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    background-color: rgb(255, 255, 240, 0.75 );
+}
